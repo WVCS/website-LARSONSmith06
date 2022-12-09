@@ -11,4 +11,24 @@ font-size:75px;
   text-shadow:5px 5px 10px #888DA7;
 }
 h4:hover{}
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: rgba(200, 200, 200, .8);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+li{
+  display: inline;
+  padding: 20px;
+  float: left;
+}
+li:hover{
+  background-color: blue;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

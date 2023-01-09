@@ -1,10 +1,9 @@
 body {
-
   background-color: #7EA2AA; 
 }
 h4 { color: #8BE8CB;
 text-align: center;
-  padding-top: 100px;
+  top: 50px;
 font-size:75px;
   text-decoration-line: underline;
     text-decoration-color:#888DA7;
@@ -26,12 +25,12 @@ li{
   padding: 20px;
   float: left;
 }
-li:hover{
-  background-color: blue;
-}
 a{
   text-decoration: none;
-  color: black;
+  color: black
+}
+li:hover{
+  background-color: blue;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -46,7 +45,7 @@ a{
 
 .dropdown-content a {
   color: black;
-  background-color: rgba(200, 200, 200,);
+  background-color: rgba(200, 200, 200);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
